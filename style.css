@@ -4,34 +4,45 @@
 ========================================================= */
 
 :root {
-  --navy: #0b1e2e;
-  --navy-dark: #071521;
-  --navy-light: #183247;
+  /* =====================================================
+     CORE COLORS
+  ===================================================== */
 
-  --copper: #b74f40;
-  --copper-dark: #963c31;
-  --copper-light: #d47a6a;
+  --navy: #102633;
+  --navy-dark: #0a1b25;
+  --navy-light: #24404c;
 
-  --cream: #fbf7f4;
-  --cream-dark: #f4ece8;
+  /* Muted terracotta / antique copper */
+  --copper: #a85d4d;
+  --copper-dark: #88483d;
+  --copper-light: #c47b69;
 
-  --blush: #f7e9e6;
-  --blush-dark: #ead4d0;
+  /* Warm ivory rather than bright cream */
+  --cream: #faf6f0;
+  --cream-dark: #eee5dc;
+
+  /* Soft dusty rose */
+  --blush: #f2e3de;
+  --blush-dark: #dfc9c1;
 
   --white: #ffffff;
 
-  --text: #162333;
-  --text-light: #58616b;
+  /* Text */
+  --text: #172833;
+  --text-light: #626a6d;
 
-  --border: rgba(183, 79, 64, 0.22);
+  /* Borders */
+  --border: rgba(168, 93, 77, 0.22);
 
+  /* Typography */
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "DM Sans", Arial, sans-serif;
 
   --container: 1200px;
 
+  /* Softer, slightly warmer shadow */
   --shadow:
-    0 20px 60px rgba(11, 30, 46, 0.09);
+    0 20px 60px rgba(16, 38, 51, 0.10);
 
   --transition:
     all 0.35s ease;
