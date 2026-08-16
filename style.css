@@ -244,6 +244,12 @@ button {
   gap: 11px;
 }
 
+.brand-logo {
+    display: block;
+    width: 150px;
+    height: auto;
+}
+
 .brand-mark {
   position: relative;
 
