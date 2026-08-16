@@ -814,7 +814,7 @@ button {
 .service-card {
   position: relative;
 
-  min-height: 350px;
+  min-height: 330px;
 
   padding: 38px 32px;
 
@@ -895,9 +895,9 @@ button {
 }
 
 .service-card a {
-  position: absolute;
+  display: inline-block;
 
-  bottom: 30px;
+  margin-top: 24px;
 
   color: var(--copper);
 
@@ -906,6 +906,13 @@ button {
 
   letter-spacing: 0.08em;
   text-transform: uppercase;
+
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.service-card a:hover {
+  color: var(--copper-dark);
+  transform: translateX(4px);
 }
 
 .center-button {
